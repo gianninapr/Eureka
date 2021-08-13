@@ -11,7 +11,7 @@ before_install:
   - python setup.py install
 
 env:
-  - NUMPY_VERSION=1.15.4
+  - NUMPY_VERSION=1.14.0
 
 install:
   - pip install -r requirements.txt
